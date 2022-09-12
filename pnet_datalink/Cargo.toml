@@ -15,6 +15,7 @@ edition = "2021"
 netmap = []
 std = ["pnet_base/std"]
 default = ["std"]
+psocket = []
 
 [dependencies]
 libc = "0.2.126"
